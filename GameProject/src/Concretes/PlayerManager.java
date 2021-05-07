@@ -16,7 +16,7 @@ public class PlayerManager implements PlayerService{
 	public void add(Player player) {
 		
 		if(playerCheckService.CheckIfRealPerson(player)) {
-			this.add(player);
+		
 			System.out.println("Oyuncu eklendi: " + player.getFirstName() + " " +
 														player.getLastName());
 		}

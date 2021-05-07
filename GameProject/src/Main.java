@@ -11,7 +11,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Player player = new Player(1, "Ayþenur", "Dayýoðlu", 1996, "5587390610");
+		Player player = new Player(1, "Selin", "Dayýoðlu", 1999, "55786393310");
 		Game game = new Game(1, "Flappy Bird", 100);
 		Campaign campaign = new Campaign(1, "Covid Ýndirimi", 30);
 
